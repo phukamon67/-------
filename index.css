@@ -1,0 +1,290 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background-color: #ff7e33;
+  margin-top: 0px;
+  height: 150px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+}
+
+.header img{
+  height: 120px;
+  border-radius: 60px;
+  margin: 15px;  
+}
+
+.th {
+  font-size: 30px;
+}
+
+.eg{
+  font-size: 20px;
+}
+
+.select{
+  display: flex;
+  gap: 60px;
+  margin-left: 300px;
+}
+
+.select a{
+  color: white;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.select1{
+  display: flex;
+  gap: 60px;
+  margin-left: 410px;
+}
+
+.select1 a{
+   color: white;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.tr{
+  display: flex;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.grid1 {
+  display: grid;
+  background-color: #d3d3d3;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px 40px;
+  align-items: flex-start;
+  border-radius: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 10px;
+}
+
+.from{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.from input{
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+.from1{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.from1 input{
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+.from2{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.from2 input{
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+.from3{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.from3 input{
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+.from4{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.from4 input{
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+.submit {
+  grid-row: span 9;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ff7e33;
+  color: black;
+  font-size: 15px;
+  border-radius: 30px;
+  padding:  20px;
+  width: 100px;
+  margin-top: 25px;
+  margin-left: 90px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  height: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tabel-wrapper {
+  display: grid;
+  margin-left: 30px;
+  width: 1400px;
+  background-color: #d9d9d9;
+  border-radius: 60px;
+  padding: 24px;
+}
+
+.tabel-wrapper th{
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #000000;
+}
+
+th {
+  background-color: #a6a6a6;
+  color: #000000;
+  padding: 10px 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+th:first-child {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  text-align: left;
+  padding-left: 24px;
+}
+
+th:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.col-faculty { width: 40%; }
+.col-dept { width: 30%; }
+.col-level { width: 30%; }
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #000000; 
+  border-right: 1px solid #000000;  
+  border-left: 1px solid #000000 ;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.col-faculty {
+  width: 40%;
+  text-align: left;
+  padding-left: 24px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.faculty-link {
+  display: inline-block;
+  background-color: #ff6600;
+  color: black;
+  text-decoration: none;
+  padding: 6px 0;
+  width: 110px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.faculty-link:hover {
+  background-color: #e05500;
+}
+
+.success-box {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 60px 40px;
+  text-align: center;
+  min-height: 500px;
+  position: relative;
+}
+
+.success-badge {
+  display: inline-block;
+  background-color: #7ed321;
+  color: black;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.success-text {
+  margin-top: 20px;
+  color: #555;
+  font-size: 15px;
+}
+
+.back-btn {
+  display: inline-block;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff7e33;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
